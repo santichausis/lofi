@@ -20,21 +20,23 @@ export default function Home() {
             videos.map((video) =>
               <li className={styles.li} key={video.id}>
                 <iframe
+                  load="lazyload"
                   className={styles.iframe}
-                  width="500"
-                  height="280"
+                  width="426"
+                  height="240"
                   src={video.nombre}
                   title="YouTube video player"
                   frameBorder="0"
-                  allow=" autoplay; picture-in-picture"
-                  allowFullScreen>
+                  allow="autoplay; picture-in-picture"
+                  allowFullScreen
+                >
                 </iframe>
               </li>
             )}
         </ul>
       </section>
       <footer className={styles.footer}>
-        Powered by Santi
+        Powered by Santi 🐽
       </footer>
     </div>
   )
