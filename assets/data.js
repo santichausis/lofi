@@ -43,6 +43,26 @@ export const videos =
         {
             "id": 11,
             "nombre": "https://www.youtube.com/embed/WqT9cm__J-g"
+        },
+        {
+            "id": 12,
+            "nombre": "https://www.youtube.com/embed/IjMESxJdWkg"
+        },
+        {
+            "id": 13,
+            "nombre": "https://www.youtube.com/embed/9m4o0Ev_flI"
+        },
+        {
+            "id": 15,
+            "nombre": "https://www.youtube.com/embed/6fQU7i89VCY"
+        },
+        {
+            "id": 16,
+            "nombre": "https://www.youtube.com/embed/CjAF8Pbch3c"
+        },
+        {
+            "id": 17,
+            "nombre": "https://www.youtube.com/embed/qt_urUz42vI"
         }
     ]
 
