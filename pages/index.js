@@ -6,25 +6,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>🎷 LoFi Music</title>
+        <title>LoFi Music</title>
         <meta name="description" content="It's a Lo-Fi site for listen music from youtube" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <h1>Lo-Fi Music</h1>
       </main>
       <section className={styles.section}>
+
         <ul className={styles.ul}>
           {
-            videos.map((video) =>
-              <li className={styles.li} key={video.id}>
+            videos.map(({id, nombre}) =>
+              <li className={styles.li} key={id}>
                 <iframe
                   load="lazyload"
                   className={styles.iframe}
                   width="426"
                   height="240"
-                  src={video.nombre}
+                  src={nombre}
                   title="YouTube video player"
                   frameBorder="0"
                   allow="autoplay; picture-in-picture"
@@ -41,3 +42,4 @@ export default function Home() {
     </div>
   )
 }
+

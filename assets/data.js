@@ -15,7 +15,7 @@ export const videos =
         {
             "id": 4,
             "nombre": "https://www.youtube.com/embed/_daTfgc4u3k"
-        }, 
+        },
         {
             "id": 5,
             "nombre": "https://www.youtube.com/embed/5yx6BWlEVcY"
@@ -63,7 +63,31 @@ export const videos =
         {
             "id": 17,
             "nombre": "https://www.youtube.com/embed/qt_urUz42vI"
-        }
+        },
+        {
+            "id": 18,
+            "nombre": "https://www.youtube.com/embed/nDDzUyGvloE"
+        },
+        {
+            "id": 19,
+            "nombre": "https://www.youtube.com/embed/V3sEOmoUPxU"
+        },
+        {
+            "id": 20,
+            "nombre": "https://www.youtube.com/embed/JoPeBwSJeVc"
+        },
+        {
+            "id": 21,
+            "nombre": "https://www.youtube.com/embed/5X18D-EbjUc"
+        },
+        {
+            "id": 22,
+            "nombre": "https://www.youtube.com/embed/1itSqkbXIlU"
+        },
+        {
+            "id": 23,
+            "nombre": "https://www.youtube.com/embed/6uddGul0oAc"
+        },
     ]
 
 
